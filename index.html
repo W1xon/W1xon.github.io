@@ -1,44 +1,121 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Эзотерические Языки Программирования</title>
-<style>
-  body { font-family: 'Courier New', monospace; background-color: #f4f4f4; color: #333; }
-  h1, h2 { text-align: center; }
-  p { padding: 5px 20px; }
-  a { color: #0000EE; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  pre { background-color: #eee; padding: 10px; }
-</style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSLWQGHR6K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DSLWQGHR6K');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Все о нейронных сетях: от основ до примеров применения">
+    <meta name="keywords" content="нейронные сети, искусственный интеллект, машинное обучение, глубокое обучение">
+    <title>Нейронные Сети</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c2333; 
+            color: #c7acc8; 
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            flex: 1;
+        }
+        header {
+            background-color: #1a1824; 
+            color: #e0d4e5; 
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px 0;
+            flex: 1;
+        }
+        footer {
+            background-color: #1a1824;
+            color: #e0d4e5;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+        h1, h2, h3 {
+            color: #e0d4e5;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .animated {
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        section {
+            background-color: #3a3147; 
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+        }
+        article {
+            background-color: #2c2333; 
+            border-left: 5px solid #5d5475; 
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Эзотерические Языки Программирования</h1>
+<header>
+    <div class="container">
+        <h1>Нейронные Сети</h1>
+    </div>
+</header>
 
+<main class="container animated">
+    <section>
+        <h2>Что такое нейронные сети?</h2>
+        <p>Нейронные сети — это математические модели, построенные по принципу организации биологических нейронных сетей живого организма. Они используются для решения задач машинного обучения, таких как распознавание образов, прогнозирование и принятие решений.</p>
+    </section>
+    
+    <section>
+        <h2>Примеры нейронных сетей</h2>
+        <article>
+            <h3>Сверточные нейронные сети (CNN)</h3>
+            <p>Используются для обработки изображений, видео, распознавания и классификации объектов.</p>
+        </article>
+        <article>
+            <h3>Рекуррентные нейронные сети (RNN)</h3>
+            <p>Применяются для работы с последовательными данными, например, для распознавания речи или предсказания временных рядов.</p>
+        </article>
+    </section>
+    
+    <section>
+        <h2>Как работают нейронные сети?</h2>
+        <p>Нейронные сети состоят из слоев нейронов, каждый из которых получает входные данные, обрабатывает их и передает дальше. Обучение нейронной сети заключается в настройке весов связей между нейронами для достижения желаемого результата.</p>
+    </section>
+</main>
 
-<h2>Piet</h2>
-<p>Piet - это язык программирования, в котором программы выглядят как абстрактные картинки. Пример программы "Hello World" в Piet представляет собой изображение, состоящее из разноцветных блоков.</p>
-<a href="https://ru.wikipedia.org/wiki/Piet" target="_blank">Википедия</a>.
-
-<h2>Malbolge</h2>
-<p>Malbolge - это один из самых сложных языков программирования. Пример программы "Hello World":</p>
-<pre>
-'&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPlNdibaf_dcbaZ~A]\Uy<XW
-PtTSRQ3IHMFjDCHA@d'&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMc
-hgfedcb[`_X|?>=<;:9OTMLQPONMFj-,+*)('CB;@9>=<;4Xyxwvutsrqponmlkjihgfedcba`_^
-]\[ZYXWVUTSRQPONMLKJIHGFEDCB^]\[Z<XWPOTSLpPON0Fj-,+*)('&%$#"!~}|{zyxwvutsrqp
-onmlkjihgfedcba`_^]\[ZYXWVUTponPfkjihafe^$bD`YX]VzZYXW9UTSLp3OHl/.-,+*)('&%$
-#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVlqponmlkjchg`&G]ba`YX|?>=<;:9OTM
-RQPONMFj-,+*)('&%$#"!~}|{zyxwvutsrqponm+*)('&%$#cb~`=^]sxqputsrqj0hg-NMLKJIH
-GFEDCBA@?>=YXW9ONSLQPOHlLKDCg*)('&%A#?>7<;:981U5432r*N.-,l$H"'&}C#cy~}vu;s9&
-</pre>
-<a href="https://ru.wikipedia.org/wiki/Malbolge" target="_blank">Википедия</a>.
-
-<h2>Whitespace</h2>
-<p>Whitespace - язык программирования, в котором важны только пробелы, табуляции и переводы строки. Пример программы "Hello World" в Whitespace состоит из последовательности пробелов и табуляций.</p>
-<a href="https://ru.wikipedia.org/wiki/Whitespace_(programming_language)" target="_blank">Википедия</a>.
+<footer>
+    <div class="container">
+        <p>© 2024 Нейронные Сети</p>
+    </div>
+</footer>
 
 </body>
 </html>
